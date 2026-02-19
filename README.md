@@ -131,18 +131,6 @@ groups:
 
 ---
 
-## Deployment
-
-Deploy to Vercel with zero configuration:
-
-```bash
-vercel deploy
-```
-
-No environment variables required. The application uses client-side localStorage for data persistence in the current MVP implementation.
-
----
-
 ## Roadmap
 
 ### Current (MVP)
@@ -189,10 +177,3 @@ MIT License - Open source for the community.
 ## Acknowledgments
 
 Built with Kilo Code for the DeveloperWeek 2026 Hackathon. Special thanks to the Kilo community for inspiration and the existing custom modes that populate the gallery.
-
----
-
-## Contact
-
-GitHub: https://github.com/yourusername/kilomodes
-Live Demo: https://kilomodes.vercel.app
