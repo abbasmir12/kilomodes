@@ -16,7 +16,7 @@ export default function Navbar() {
         <li><Link href="https://kilo.ai" target="_blank" rel="noopener">Docs</Link></li>
         <li>
           <a
-            href="https://github.com/Kilo-Org/kilocode"
+            href="https://github.com/abbasmir12/kilomodes"
             target="_blank"
             rel="noopener"
             className="btn-github"
