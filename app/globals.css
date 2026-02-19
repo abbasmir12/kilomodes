@@ -542,22 +542,21 @@ body {
   backdrop-filter: blur(4px);
   z-index: 200;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 24px;
   animation: fadeIn 0.2s ease;
 }
 
 .modal {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-bottom: none;
-  border-radius: var(--radius) var(--radius) 0 0;
+  border-radius: var(--radius);
   width: 100%;
   max-width: 760px;
   max-height: 85vh;
   overflow-y: auto;
-  animation: slideUp 0.3s ease;
+  animation: modalFadeIn 0.3s ease;
   padding: 40px;
 }
 
@@ -1056,6 +1055,11 @@ body {
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes modalFadeIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
 }
 
 @keyframes slideUp {
